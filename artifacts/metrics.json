@@ -1,0 +1,258 @@
+{
+  "Logistic Regression": {
+    "accuracy": 0.91264,
+    "precision_macro": 0.9100510299168335,
+    "recall_macro": 0.915357517982497,
+    "f1_macro": 0.906774116142747,
+    "roc_auc_ovr": 0.9586240569913592,
+    "classification_report": {
+      "atm_skimming_fraud": {
+        "precision": 0.8448566610455311,
+        "recall": 0.5307203389830508,
+        "f1-score": 0.6519193233571893,
+        "support": 944.0
+      },
+      "credit_card_fraud": {
+        "precision": 0.9165302782324058,
+        "recall": 0.9688581314878892,
+        "f1-score": 0.9419680403700589,
+        "support": 578.0
+      },
+      "identity_theft": {
+        "precision": 0.9133574007220217,
+        "recall": 0.9825242718446602,
+        "f1-score": 0.9466791393826005,
+        "support": 515.0
+      },
+      "legitimate": {
+        "precision": 0.9189280868385346,
+        "recall": 0.9822335025380711,
+        "f1-score": 0.9495268138801262,
+        "support": 2758.0
+      },
+      "money_laundering": {
+        "precision": 0.9385245901639344,
+        "recall": 0.9744680851063829,
+        "f1-score": 0.9561586638830897,
+        "support": 470.0
+      },
+      "transaction_laundering": {
+        "precision": 0.9227373068432672,
+        "recall": 0.9812206572769953,
+        "f1-score": 0.9510807736063709,
+        "support": 426.0
+      },
+      "upi_fraud": {
+        "precision": 0.9154228855721394,
+        "recall": 0.9874776386404294,
+        "f1-score": 0.9500860585197934,
+        "support": 559.0
+      },
+      "accuracy": 0.91264,
+      "macro avg": {
+        "precision": 0.9100510299168335,
+        "recall": 0.915357517982497,
+        "f1-score": 0.906774116142747,
+        "support": 6250.0
+      },
+      "weighted avg": {
+        "precision": 0.9084793530951901,
+        "recall": 0.91264,
+        "f1-score": 0.9042971466144704,
+        "support": 6250.0
+      }
+    }
+  },
+  "Random Forest": {
+    "accuracy": 0.92112,
+    "precision_macro": 0.9222828470805083,
+    "recall_macro": 0.9207640539729287,
+    "f1_macro": 0.9130165179816274,
+    "roc_auc_ovr": 0.9586019903841395,
+    "classification_report": {
+      "atm_skimming_fraud": {
+        "precision": 0.9244935543278084,
+        "recall": 0.5317796610169492,
+        "f1-score": 0.6751849361129791,
+        "support": 944.0
+      },
+      "credit_card_fraud": {
+        "precision": 0.9129032258064517,
+        "recall": 0.9792387543252595,
+        "f1-score": 0.9449081803005008,
+        "support": 578.0
+      },
+      "identity_theft": {
+        "precision": 0.9151624548736462,
+        "recall": 0.9844660194174757,
+        "f1-score": 0.9485500467726848,
+        "support": 515.0
+      },
+      "legitimate": {
+        "precision": 0.9203213927017074,
+        "recall": 0.9967367657722987,
+        "f1-score": 0.957006092254134,
+        "support": 2758.0
+      },
+      "money_laundering": {
+        "precision": 0.9369918699186992,
+        "recall": 0.9808510638297873,
+        "f1-score": 0.9584199584199585,
+        "support": 470.0
+      },
+      "transaction_laundering": {
+        "precision": 0.9288888888888889,
+        "recall": 0.9812206572769953,
+        "f1-score": 0.9543378995433789,
+        "support": 426.0
+      },
+      "upi_fraud": {
+        "precision": 0.9172185430463576,
+        "recall": 0.9910554561717353,
+        "f1-score": 0.9527085124677558,
+        "support": 559.0
+      },
+      "accuracy": 0.92112,
+      "macro avg": {
+        "precision": 0.9222828470805083,
+        "recall": 0.9207640539729287,
+        "f1-score": 0.9130165179816274,
+        "support": 6250.0
+      },
+      "weighted avg": {
+        "precision": 0.92140048899587,
+        "recall": 0.92112,
+        "f1-score": 0.9121643149698418,
+        "support": 6250.0
+      }
+    }
+  },
+  "Extra Trees": {
+    "accuracy": 0.92128,
+    "precision_macro": 0.9229717965392343,
+    "recall_macro": 0.9209830636112836,
+    "f1_macro": 0.9133653443458669,
+    "roc_auc_ovr": 0.9588542023622157,
+    "classification_report": {
+      "atm_skimming_fraud": {
+        "precision": 0.9260628465804066,
+        "recall": 0.5307203389830508,
+        "f1-score": 0.6747474747474748,
+        "support": 944.0
+      },
+      "credit_card_fraud": {
+        "precision": 0.9117174959871589,
+        "recall": 0.9826989619377162,
+        "f1-score": 0.9458784346378019,
+        "support": 578.0
+      },
+      "identity_theft": {
+        "precision": 0.9118705035971223,
+        "recall": 0.9844660194174757,
+        "f1-score": 0.9467787114845938,
+        "support": 515.0
+      },
+      "legitimate": {
+        "precision": 0.9200401472064236,
+        "recall": 0.9970993473531544,
+        "f1-score": 0.9570210544631983,
+        "support": 2758.0
+      },
+      "money_laundering": {
+        "precision": 0.9389002036659878,
+        "recall": 0.9808510638297873,
+        "f1-score": 0.959417273673257,
+        "support": 470.0
+      },
+      "transaction_laundering": {
+        "precision": 0.9352678571428571,
+        "recall": 0.9835680751173709,
+        "f1-score": 0.9588100686498856,
+        "support": 426.0
+      },
+      "upi_fraud": {
+        "precision": 0.9169435215946844,
+        "recall": 0.9874776386404294,
+        "f1-score": 0.9509043927648578,
+        "support": 559.0
+      },
+      "accuracy": 0.92128,
+      "macro avg": {
+        "precision": 0.9229717965392343,
+        "recall": 0.9209830636112836,
+        "f1-score": 0.9133653443458669,
+        "support": 6250.0
+      },
+      "weighted avg": {
+        "precision": 0.9216861930620184,
+        "recall": 0.92128,
+        "f1-score": 0.9122670751093072,
+        "support": 6250.0
+      }
+    }
+  },
+  "SVM (RBF)": {
+    "accuracy": 0.9208,
+    "precision_macro": 0.9226662104244497,
+    "recall_macro": 0.9196690960728261,
+    "f1_macro": 0.9123428522151883,
+    "roc_auc_ovr": 0.9581072598110062,
+    "classification_report": {
+      "atm_skimming_fraud": {
+        "precision": 0.9292364990689013,
+        "recall": 0.5286016949152542,
+        "f1-score": 0.6738690074274138,
+        "support": 944.0
+      },
+      "credit_card_fraud": {
+        "precision": 0.9090909090909091,
+        "recall": 0.986159169550173,
+        "f1-score": 0.946058091286307,
+        "support": 578.0
+      },
+      "identity_theft": {
+        "precision": 0.9132007233273056,
+        "recall": 0.9805825242718447,
+        "f1-score": 0.9456928838951311,
+        "support": 515.0
+      },
+      "legitimate": {
+        "precision": 0.9194787838289342,
+        "recall": 0.9978245105148659,
+        "f1-score": 0.9570509476612764,
+        "support": 2758.0
+      },
+      "money_laundering": {
+        "precision": 0.9387755102040817,
+        "recall": 0.9787234042553191,
+        "f1-score": 0.9583333333333333,
+        "support": 470.0
+      },
+      "transaction_laundering": {
+        "precision": 0.9348314606741573,
+        "recall": 0.9765258215962441,
+        "f1-score": 0.9552238805970149,
+        "support": 426.0
+      },
+      "upi_fraud": {
+        "precision": 0.9140495867768595,
+        "recall": 0.9892665474060823,
+        "f1-score": 0.950171821305842,
+        "support": 559.0
+      },
+      "accuracy": 0.9208,
+      "macro avg": {
+        "precision": 0.9226662104244497,
+        "recall": 0.9196690960728261,
+        "f1-score": 0.9123428522151883,
+        "support": 6250.0
+      },
+      "weighted avg": {
+        "precision": 0.9214865711905161,
+        "recall": 0.9208,
+        "f1-score": 0.911683257046675,
+        "support": 6250.0
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "problem_scope": "Multiclass fraud detection across six major fraud mechanisms and one legitimate class.",
+  "feature_count": 20,
+  "classes": [
+    "legitimate",
+    "credit_card_fraud",
+    "identity_theft",
+    "money_laundering",
+    "transaction_laundering",
+    "upi_fraud",
+    "atm_skimming_fraud"
+  ],
+  "class_descriptions": {
+    "legitimate": "Normal low-risk activity with stable behavior and low anomaly scores.",
+    "credit_card_fraud": "Card-not-present anomalies, high merchant risk, unusual geolocation, and elevated digital risk.",
+    "identity_theft": "Takeover behavior marked by device change, failed logins, KYC mismatch, and abnormal profile shifts.",
+    "money_laundering": "Structuring and layering patterns with elevated cash ratio, network risk, and high transaction value.",
+    "transaction_laundering": "Concealed merchant behavior with abnormal merchant risk, velocity, and hidden channel complexity.",
+    "upi_fraud": "UPI pull-request abuse, rapid transfers, risky devices, and account takeover signals.",
+    "atm_skimming_fraud": "Card-present ATM withdrawals far from home, unusual timing, and suspicious withdrawal bursts."
+  },
+  "signals_per_class": {
+    "credit_card_fraud": 10,
+    "identity_theft": 10,
+    "money_laundering": 10,
+    "transaction_laundering": 10,
+    "upi_fraud": 10,
+    "atm_skimming_fraud": 10
+  },
+  "recommended_hypothesis": "Behavioral, transactional, geospatial, device, and network signals can jointly distinguish heterogeneous financial fraud typologies in a multiclass setting under noisy conditions."
+}
